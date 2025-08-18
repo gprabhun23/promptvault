@@ -194,83 +194,83 @@ const promptGroups = [
         prompts: [
             {
                 id: 1,
-                response: "Yesterday I completed task ____ related to the ____ feature. This cleared one of our sprint objectives and sets up the team to move forward without blockers."
+                content: "Yesterday I completed task ____ related to the ____ feature. This cleared one of our sprint objectives and sets up the team to move forward without blockers."
             },
             {
                 id: 2,
-                response: "Today I’ll be focusing on task ____ which covers ____ functionality. My goal is to progress this enough to get it ready for review by the end of the day."
+                content: "Today I’ll be focusing on task ____ which covers ____ functionality. My goal is to progress this enough to get it ready for review by the end of the day."
             },
             {
                 id: 3,
-                response: "I’m currently blocked because ____ is pending from Team ____. This impacts our ability to finish feature ____ on time, and resolving it quickly will help us stay aligned with sprint goals."
+                content: "I’m currently blocked because ____ is pending from Team ____. This impacts our ability to finish feature ____ on time, and resolving it quickly will help us stay aligned with sprint goals."
             },
             {
                 id: 4,
-                response: "The work I completed yesterday improves ____ for the end-user. Simply put, this means users will notice ____ once the feature is live."
+                content: "The work I completed yesterday improves ____ for the end-user. Simply put, this means users will notice ____ once the feature is live."
             },
             {
                 id: 5,
-                response: "Quick update: Yesterday I wrapped up ____. Today I’ll be working on ____. I have a blocker on ____ that needs resolution before I can proceed further."
+                content: "Quick update: Yesterday I wrapped up ____. Today I’ll be working on ____. I have a blocker on ____ that needs resolution before I can proceed further."
             },
             {
                 id: 6,
-                response: "My progress on task ____ depends on ____ completing their part. Once that’s done, I can immediately continue without delays."
+                content: "My progress on task ____ depends on ____ completing their part. Once that’s done, I can immediately continue without delays."
             },
             {
                 id: 7,
-                response: "I’m blocked because ____ hasn’t been completed. This directly impacts feature ____ and could delay our sprint goal if not addressed soon."
+                content: "I’m blocked because ____ hasn’t been completed. This directly impacts feature ____ and could delay our sprint goal if not addressed soon."
             },
             {
                 id: 8,
-                response: "I want to flag a potential risk: task ____ may take longer due to ____. I’ll monitor this closely and keep the team updated on progress."
+                content: "I want to flag a potential risk: task ____ may take longer due to ____. I’ll monitor this closely and keep the team updated on progress."
             },
             {
                 id: 9,
-                response: "Yesterday – finished ____. Today – working on ____. Blocker – waiting for review on ____ before I can proceed."
+                content: "Yesterday – finished ____. Today – working on ____. Blocker – waiting for review on ____ before I can proceed."
             },
             {
                 id: 10,
-                response: "In addition to my main tasks, I supported the team by reviewing ____ and pairing with ____ on their story. This should help speed up their progress."
+                content: "In addition to my main tasks, I supported the team by reviewing ____ and pairing with ____ on their story. This should help speed up their progress."
             },
             {
                 id: 11,
-                response: "We closed task ____ which reduces load times for ____. This should improve the customer experience significantly once deployed."
+                content: "We closed task ____ which reduces load times for ____. This should improve the customer experience significantly once deployed."
             },
             {
                 id: 12,
-                response: "I’ll need some input from ____ on how to approach ____. If we can connect today, I’ll be unblocked and able to continue."
+                content: "I’ll need some input from ____ on how to approach ____. If we can connect today, I’ll be unblocked and able to continue."
             },
             {
                 id: 13,
-                response: "I won’t go into deep technical details here, but I’ve documented the approach in ____. Happy to explain it further after standup if needed."
+                content: "I won’t go into deep technical details here, but I’ve documented the approach in ____. Happy to explain it further after standup if needed."
             },
             {
                 id: 14,
-                response: "I faced some challenges yesterday but still managed to close task ____. Today I’ll continue with ____ and expect smoother progress."
+                content: "I faced some challenges yesterday but still managed to close task ____. Today I’ll continue with ____ and expect smoother progress."
             },
             {
                 id: 15,
-                response: "Yesterday’s work on ____ contributes directly to completing feature ____ in this sprint. We’re still aligned with our sprint goal."
+                content: "Yesterday’s work on ____ contributes directly to completing feature ____ in this sprint. We’re still aligned with our sprint goal."
             },
             {
                 id: 16,
-                response: "Yesterday I worked on ____ and wrapped up ____. Today I’ll be focusing on ____ and expect no blockers so far."
+                content: "Yesterday I worked on ____ and wrapped up ____. Today I’ll be focusing on ____ and expect no blockers so far."
             },
             {
                 id: 17,
-                response: "The blocker I mentioned yesterday on ____ has been resolved. I can now continue with the next step on ____ without issues."
+                content: "The blocker I mentioned yesterday on ____ has been resolved. I can now continue with the next step on ____ without issues."
             },
             {
                 id: 18,
-                response: "I paired with ____ yesterday to help with their task on ____. This collaboration should speed things up and reduce rework later."
+                content: "I paired with ____ yesterday to help with their task on ____. This collaboration should speed things up and reduce rework later."
             },
             {
                 id: 19,
-                response: "One dependency to flag: Feature ____ relies on Team ____ finishing task ____. Once that’s done, I’ll pick it up immediately."
+                content: "One dependency to flag: Feature ____ relies on Team ____ finishing task ____. Once that’s done, I’ll pick it up immediately."
             },
             {
                 id: 20,
-                response: "To wrap up: Yesterday completed ____, today focusing on ____, no major blockers. All of this is aligned with our sprint priorities."
+                content: "To wrap up: Yesterday completed ____, today focusing on ____, no major blockers. All of this is aligned with our sprint priorities."
             }
         ]
     }
@@ -282,83 +282,83 @@ const promptGroups = [
         prompts: [
             {
                 id: 21,
-                response: "I’ve broken down the large feature ____ into smaller deliverables. This way, each part can be completed in a day or two and assigned to different team members for faster progress."
+                content: "I’ve broken down the large feature ____ into smaller deliverables. This way, each part can be completed in a day or two and assigned to different team members for faster progress."
             },
             {
                 id: 22,
-                response: "I’m prioritizing task ____ first because it delivers higher business value. Once that’s done, we can shift focus to ____ which has lower urgency."
+                content: "I’m prioritizing task ____ first because it delivers higher business value. Once that’s done, we can shift focus to ____ which has lower urgency."
             },
             {
                 id: 23,
-                response: "Before starting work on ____, I checked its dependencies. It relies on ____ being finished, so I’ll monitor that closely to avoid delays."
+                content: "Before starting work on ____, I checked its dependencies. It relies on ____ being finished, so I’ll monitor that closely to avoid delays."
             },
             {
                 id: 24,
-                response: "I’ve reordered the backlog so that we focus on ____ first. This keeps us aligned with the sprint goal while ensuring critical items are delivered on time."
+                content: "I’ve reordered the backlog so that we focus on ____ first. This keeps us aligned with the sprint goal while ensuring critical items are delivered on time."
             },
             {
                 id: 25,
-                response: "For task ____, I clarified the acceptance criteria with ____. This will help avoid rework and make sure the definition of done is clear to everyone."
+                content: "For task ____, I clarified the acceptance criteria with ____. This will help avoid rework and make sure the definition of done is clear to everyone."
             },
             {
                 id: 26,
-                response: "The effort for task ____ looks higher than expected, so I’ve shared an updated estimate. This helps set realistic expectations for sprint planning."
+                content: "The effort for task ____ looks higher than expected, so I’ve shared an updated estimate. This helps set realistic expectations for sprint planning."
             },
             {
                 id: 27,
-                response: "I’ve balanced work between fixing bugs like ____ and building new features like ____. This ensures stability without slowing innovation."
+                content: "I’ve balanced work between fixing bugs like ____ and building new features like ____. This ensures stability without slowing innovation."
             },
             {
                 id: 28,
-                response: "Based on new business input, I’ve reprioritized ____ to a higher level. This means some lower-impact items like ____ will move to the next sprint."
+                content: "Based on new business input, I’ve reprioritized ____ to a higher level. This means some lower-impact items like ____ will move to the next sprint."
             },
             {
                 id: 29,
-                response: "Task ____ was too big, so I split it into sub-tasks: ____, ____, and ____. Each is now small enough to complete in a day or two."
+                content: "Task ____ was too big, so I split it into sub-tasks: ____, ____, and ____. Each is now small enough to complete in a day or two."
             },
             {
                 id: 30,
-                response: "I’ve noticed that task ____ is consuming a lot of effort but has low impact. I recommend we de-prioritize it in favor of ____ which adds more value."
+                content: "I’ve noticed that task ____ is consuming a lot of effort but has low impact. I recommend we de-prioritize it in favor of ____ which adds more value."
             },
             {
                 id: 31,
-                response: "Before starting task ____, I confirmed that it aligns with the sprint goal ____. This keeps us focused on what really matters."
+                content: "Before starting task ____, I confirmed that it aligns with the sprint goal ____. This keeps us focused on what really matters."
             },
             {
                 id: 32,
-                response: "I’ve updated the task board to reflect progress on ____. This makes sure everyone can see the latest status without waiting for a sync."
+                content: "I’ve updated the task board to reflect progress on ____. This makes sure everyone can see the latest status without waiting for a sync."
             },
             {
                 id: 33,
-                response: "I feel the estimate for task ____ is unrealistic. I recommend revisiting it with the team before we commit too heavily."
+                content: "I feel the estimate for task ____ is unrealistic. I recommend revisiting it with the team before we commit too heavily."
             },
             {
                 id: 34,
-                response: "Task ____ is blocked by an external dependency on ____. While waiting, I’ll work on ____ so we don’t lose time."
+                content: "Task ____ is blocked by an external dependency on ____. While waiting, I’ll work on ____ so we don’t lose time."
             },
             {
                 id: 35,
-                response: "I’ve identified a quick win: task ____ can be completed quickly and delivers immediate value. This keeps momentum high while we wait on bigger items."
+                content: "I’ve identified a quick win: task ____ can be completed quickly and delivers immediate value. This keeps momentum high while we wait on bigger items."
             },
             {
                 id: 36,
-                response: "Workload seems uneven, so I suggest rebalancing. For example, I can take on ____ so that ____ isn’t overloaded."
+                content: "Workload seems uneven, so I suggest rebalancing. For example, I can take on ____ so that ____ isn’t overloaded."
             },
             {
                 id: 37,
-                response: "Since priorities shifted, I’ve informed stakeholders about moving ____ to the next sprint. This keeps expectations realistic and transparent."
+                content: "Since priorities shifted, I’ve informed stakeholders about moving ____ to the next sprint. This keeps expectations realistic and transparent."
             },
             {
                 id: 38,
-                response: "I recommend we avoid overcommitting. For example, instead of taking both ____ and ____, we should focus on the higher-impact one first."
+                content: "I recommend we avoid overcommitting. For example, instead of taking both ____ and ____, we should focus on the higher-impact one first."
             },
             {
                 id: 39,
-                response: "During retrospectives, I’ll propose we improve how we prioritize tasks. For example, task ____ could have been caught earlier as non-essential."
+                content: "During retrospectives, I’ll propose we improve how we prioritize tasks. For example, task ____ could have been caught earlier as non-essential."
             },
             {
                 id: 40,
-                response: "Before committing to task ____, I checked if it directly contributes to the project’s success. If it doesn’t, I’ll suggest parking it for later."
+                content: "Before committing to task ____, I checked if it directly contributes to the project’s success. If it doesn’t, I’ll suggest parking it for later."
             }
         ]
     }, {
@@ -368,83 +368,83 @@ const promptGroups = [
         prompts: [
             {
                 id: 41,
-                response: "In reviewing the code for ____, I noticed that we can simplify the logic by using ____. This reduces complexity and makes it easier to maintain."
+                content: "In reviewing the code for ____, I noticed that we can simplify the logic by using ____. This reduces complexity and makes it easier to maintain."
             },
             {
                 id: 42,
-                response: "The naming convention in ____ isn’t consistent with our standard. I suggest renaming it to ____ so the code is more readable for everyone."
+                content: "The naming convention in ____ isn’t consistent with our standard. I suggest renaming it to ____ so the code is more readable for everyone."
             },
             {
                 id: 43,
-                response: "I observed that function ____ has duplicate logic already present in ____. We should refactor it to reuse the existing code instead of duplicating."
+                content: "I observed that function ____ has duplicate logic already present in ____. We should refactor it to reuse the existing code instead of duplicating."
             },
             {
                 id: 44,
-                response: "For performance, the loop in ____ can be optimized. Switching to ____ will cut down unnecessary iterations and speed things up."
+                content: "For performance, the loop in ____ can be optimized. Switching to ____ will cut down unnecessary iterations and speed things up."
             },
             {
                 id: 45,
-                response: "I recommend adding unit tests for ____ since it’s a core part of the system. This will help catch regressions early and increase confidence in changes."
+                content: "I recommend adding unit tests for ____ since it’s a core part of the system. This will help catch regressions early and increase confidence in changes."
             },
             {
                 id: 46,
-                response: "I suggest we use dependency injection for ____ instead of hardcoding. This makes the code more flexible and easier to test."
+                content: "I suggest we use dependency injection for ____ instead of hardcoding. This makes the code more flexible and easier to test."
             },
             {
                 id: 47,
-                response: "Error handling in ____ isn’t complete. We should add proper handling for cases like ____ to avoid failures in production."
+                content: "Error handling in ____ isn’t complete. We should add proper handling for cases like ____ to avoid failures in production."
             },
             {
                 id: 48,
-                response: "The current PR for ____ lacks documentation. Adding inline comments and updating the README will help future developers understand the changes."
+                content: "The current PR for ____ lacks documentation. Adding inline comments and updating the README will help future developers understand the changes."
             },
             {
                 id: 49,
-                response: "I noticed security concerns in ____ where input isn’t validated. We should sanitize user input to prevent issues like ____."
+                content: "I noticed security concerns in ____ where input isn’t validated. We should sanitize user input to prevent issues like ____."
             },
             {
                 id: 50,
-                response: "The code style in ____ doesn’t match our linting rules. Please run the formatter to make sure it’s consistent with the rest of the codebase."
+                content: "The code style in ____ doesn’t match our linting rules. Please run the formatter to make sure it’s consistent with the rest of the codebase."
             },
             {
                 id: 51,
-                response: "The logic for ____ could be extracted into a utility function. This avoids repetition and improves clarity."
+                content: "The logic for ____ could be extracted into a utility function. This avoids repetition and improves clarity."
             },
             {
                 id: 52,
-                response: "Instead of using hardcoded values in ____, we should move them into configuration files. That way, they can be updated without code changes."
+                content: "Instead of using hardcoded values in ____, we should move them into configuration files. That way, they can be updated without code changes."
             },
             {
                 id: 53,
-                response: "The commit message for ____ isn’t descriptive. Writing clear commit messages helps others understand the purpose of the change."
+                content: "The commit message for ____ isn’t descriptive. Writing clear commit messages helps others understand the purpose of the change."
             },
             {
                 id: 54,
-                response: "I recommend breaking down this PR into smaller chunks. For example, separate the feature addition ____ from the bug fix ____, so reviews are more effective."
+                content: "I recommend breaking down this PR into smaller chunks. For example, separate the feature addition ____ from the bug fix ____, so reviews are more effective."
             },
             {
                 id: 55,
-                response: "We should add logging in ____ for better observability. This will help us debug faster if issues occur in production."
+                content: "We should add logging in ____ for better observability. This will help us debug faster if issues occur in production."
             },
             {
                 id: 56,
-                response: "Instead of using nested if-else in ____, consider using a switch statement or strategy pattern. This makes the flow easier to follow."
+                content: "Instead of using nested if-else in ____, consider using a switch statement or strategy pattern. This makes the flow easier to follow."
             },
             {
                 id: 57,
-                response: "I noticed the function ____ has grown too large. Splitting it into smaller, focused methods will improve readability and testing."
+                content: "I noticed the function ____ has grown too large. Splitting it into smaller, focused methods will improve readability and testing."
             },
             {
                 id: 58,
-                response: "The API response handling in ____ should include edge cases. For instance, handle timeouts and invalid responses gracefully."
+                content: "The API response handling in ____ should include edge cases. For instance, handle timeouts and invalid responses gracefully."
             },
             {
                 id: 59,
-                response: "I recommend aligning the data model for ____ with the existing schema in ____. This ensures consistency across the application."
+                content: "I recommend aligning the data model for ____ with the existing schema in ____. This ensures consistency across the application."
             },
             {
                 id: 60,
-                response: "The approach in ____ works, but using a library like ____ would be more efficient and maintainable in the long run."
+                content: "The approach in ____ works, but using a library like ____ would be more efficient and maintainable in the long run."
             }
         ]
     },
@@ -455,83 +455,83 @@ const promptGroups = [
         prompts: [
             {
                 id: 61,
-                response: "For today’s demo, I’ll walk you through feature ____. The goal was to improve ____ for the end-user, and I’ll show how it now works end-to-end."
+                content: "For today’s demo, I’ll walk you through feature ____. The goal was to improve ____ for the end-user, and I’ll show how it now works end-to-end."
             },
             {
                 id: 62,
-                response: "This sprint, we focused on building ____. In the demo, you’ll see how the changes enhance ____ and simplify the overall workflow."
+                content: "This sprint, we focused on building ____. In the demo, you’ll see how the changes enhance ____ and simplify the overall workflow."
             },
             {
                 id: 63,
-                response: "Before I show the functionality, let me explain the context. We built ____ to solve the problem of ____, which was causing delays earlier."
+                content: "Before I show the functionality, let me explain the context. We built ____ to solve the problem of ____, which was causing delays earlier."
             },
             {
                 id: 64,
-                response: "I’ll first present the user perspective of ____, then highlight some of the behind-the-scenes technical improvements we made in ____."
+                content: "I’ll first present the user perspective of ____, then highlight some of the behind-the-scenes technical improvements we made in ____."
             },
             {
                 id: 65,
-                response: "The flow starts with ____ where users can now ____. I’ll demonstrate step by step how this improves the process compared to before."
+                content: "The flow starts with ____ where users can now ____. I’ll demonstrate step by step how this improves the process compared to before."
             },
             {
                 id: 66,
-                response: "Here you can see the updated UI for ____. We simplified the layout to make it clearer and ensure that users can complete ____ faster."
+                content: "Here you can see the updated UI for ____. We simplified the layout to make it clearer and ensure that users can complete ____ faster."
             },
             {
                 id: 67,
-                response: "We added validations in ____ to prevent errors. For example, if users enter ____, they’ll now see a proper message instead of system failure."
+                content: "We added validations in ____ to prevent errors. For example, if users enter ____, they’ll now see a proper message instead of system failure."
             },
             {
                 id: 68,
-                response: "On the backend, we optimized ____ to handle more requests. In the demo, notice how the response time is now ____ compared to earlier."
+                content: "On the backend, we optimized ____ to handle more requests. In the demo, notice how the response time is now ____ compared to earlier."
             },
             {
                 id: 69,
-                response: "We’ve integrated ____ with ____ system. This allows data to flow automatically, and I’ll show a live example of how this works in practice."
+                content: "We’ve integrated ____ with ____ system. This allows data to flow automatically, and I’ll show a live example of how this works in practice."
             },
             {
                 id: 70,
-                response: "We also focused on fixing issues in ____. During the demo, I’ll highlight the bug before and after the fix so you can see the improvement clearly."
+                content: "We also focused on fixing issues in ____. During the demo, I’ll highlight the bug before and after the fix so you can see the improvement clearly."
             },
             {
                 id: 71,
-                response: "In this demo, you’ll see a new workflow for ____. It reduces manual steps and ensures users can complete ____ with fewer clicks."
+                content: "In this demo, you’ll see a new workflow for ____. It reduces manual steps and ensures users can complete ____ with fewer clicks."
             },
             {
                 id: 72,
-                response: "We prioritized accessibility in this feature. For instance, in ____, users with ____ will now be able to interact more effectively."
+                content: "We prioritized accessibility in this feature. For instance, in ____, users with ____ will now be able to interact more effectively."
             },
             {
                 id: 73,
-                response: "One of the major outcomes is that ____ is now fully automated. I’ll demonstrate how the automation works and the time it saves."
+                content: "One of the major outcomes is that ____ is now fully automated. I’ll demonstrate how the automation works and the time it saves."
             },
             {
                 id: 74,
-                response: "We created dashboards in ____ to visualize key metrics. In the demo, you’ll see how stakeholders can quickly track ____."
+                content: "We created dashboards in ____ to visualize key metrics. In the demo, you’ll see how stakeholders can quickly track ____."
             },
             {
                 id: 75,
-                response: "Here’s an error scenario we accounted for in ____. I’ll show what happens if users input ____, and how the system handles it gracefully."
+                content: "Here’s an error scenario we accounted for in ____. I’ll show what happens if users input ____, and how the system handles it gracefully."
             },
             {
                 id: 76,
-                response: "Security was a focus area this sprint. In ____, we’ve implemented ____ to ensure that only authorized users can access it."
+                content: "Security was a focus area this sprint. In ____, we’ve implemented ____ to ensure that only authorized users can access it."
             },
             {
                 id: 77,
-                response: "Scalability improvements were made in ____. I’ll demonstrate with a scenario where multiple users access it simultaneously and show the stable performance."
+                content: "Scalability improvements were made in ____. I’ll demonstrate with a scenario where multiple users access it simultaneously and show the stable performance."
             },
             {
                 id: 78,
-                response: "We’ve streamlined the integration between ____ and ____. In the demo, you’ll see how the data syncs seamlessly without manual intervention."
+                content: "We’ve streamlined the integration between ____ and ____. In the demo, you’ll see how the data syncs seamlessly without manual intervention."
             },
             {
                 id: 79,
-                response: "We added logging and monitoring in ____. I’ll show how errors and key events are captured, making it easier for us to track system health."
+                content: "We added logging and monitoring in ____. I’ll show how errors and key events are captured, making it easier for us to track system health."
             },
             {
                 id: 80,
-                response: "To conclude the demo, I’ll summarize the business impact: with ____, users now experience ____ and the team benefits by ____."
+                content: "To conclude the demo, I’ll summarize the business impact: with ____, users now experience ____ and the team benefits by ____."
             }
         ]
     }
@@ -543,83 +543,83 @@ const promptGroups = [
         prompts: [
             {
                 id: 81,
-                response: "Currently, the team has completed ____% of the sprint backlog. The key feature ____ is on track, while ____ requires additional review."
+                content: "Currently, the team has completed ____% of the sprint backlog. The key feature ____ is on track, while ____ requires additional review."
             },
             {
                 id: 82,
-                response: "This week, we made significant progress on ____. The feature is now ready for testing, which will allow stakeholders to validate it earlier."
+                content: "This week, we made significant progress on ____. The feature is now ready for testing, which will allow stakeholders to validate it earlier."
             },
             {
                 id: 83,
-                response: "The risk we’ve identified is ____. To mitigate it, we’ve planned ____ and are monitoring closely to avoid delays."
+                content: "The risk we’ve identified is ____. To mitigate it, we’ve planned ____ and are monitoring closely to avoid delays."
             },
             {
                 id: 84,
-                response: "From a timeline perspective, ____ is progressing ahead of schedule, while ____ might require additional effort to close on time."
+                content: "From a timeline perspective, ____ is progressing ahead of schedule, while ____ might require additional effort to close on time."
             },
             {
                 id: 85,
-                response: "User feedback on ____ has been positive, especially regarding ____. We’ll continue refining based on these insights."
+                content: "User feedback on ____ has been positive, especially regarding ____. We’ll continue refining based on these insights."
             },
             {
                 id: 86,
-                response: "The current blocker is ____, which is outside our immediate team’s control. We’ve escalated it to ____ and are awaiting resolution."
+                content: "The current blocker is ____, which is outside our immediate team’s control. We’ve escalated it to ____ and are awaiting resolution."
             },
             {
                 id: 87,
-                response: "We’ve reduced technical debt in ____ by refactoring and improving code quality. This ensures stability for upcoming releases."
+                content: "We’ve reduced technical debt in ____ by refactoring and improving code quality. This ensures stability for upcoming releases."
             },
             {
                 id: 88,
-                response: "In terms of deliverables, ____ has been completed, and ____ is in progress. We are confident about meeting the sprint goals."
+                content: "In terms of deliverables, ____ has been completed, and ____ is in progress. We are confident about meeting the sprint goals."
             },
             {
                 id: 89,
-                response: "The dependency on ____ is a concern since delays there could affect ____. We’re coordinating closely with that team to minimize impact."
+                content: "The dependency on ____ is a concern since delays there could affect ____. We’re coordinating closely with that team to minimize impact."
             },
             {
                 id: 90,
-                response: "For upcoming milestones, we are targeting completion of ____ by ____. This aligns with the broader roadmap for ____."
+                content: "For upcoming milestones, we are targeting completion of ____ by ____. This aligns with the broader roadmap for ____."
             },
             {
                 id: 91,
-                response: "The demo of ____ received valuable feedback. We’ve already addressed ____ and will update the next version accordingly."
+                content: "The demo of ____ received valuable feedback. We’ve already addressed ____ and will update the next version accordingly."
             },
             {
                 id: 92,
-                response: "Our focus this sprint has been improving ____ which directly benefits ____. Stakeholders should start seeing measurable impact soon."
+                content: "Our focus this sprint has been improving ____ which directly benefits ____. Stakeholders should start seeing measurable impact soon."
             },
             {
                 id: 93,
-                response: "To ensure transparency, we’ve set up regular reporting on ____. This will help stakeholders track progress without waiting until sprint reviews."
+                content: "To ensure transparency, we’ve set up regular reporting on ____. This will help stakeholders track progress without waiting until sprint reviews."
             },
             {
                 id: 94,
-                response: "One challenge we faced was ____ which slowed progress. However, with the fix in place, the team is back on track."
+                content: "One challenge we faced was ____ which slowed progress. However, with the fix in place, the team is back on track."
             },
             {
                 id: 95,
-                response: "Cross-team collaboration has improved for ____. By aligning priorities with ____, we’ve reduced delays in delivery."
+                content: "Cross-team collaboration has improved for ____. By aligning priorities with ____, we’ve reduced delays in delivery."
             },
             {
                 id: 96,
-                response: "The testing phase for ____ is nearly complete, with only a few issues in ____. We expect closure before the next sprint planning."
+                content: "The testing phase for ____ is nearly complete, with only a few issues in ____. We expect closure before the next sprint planning."
             },
             {
                 id: 97,
-                response: "We’re continuously monitoring performance in ____. Initial metrics show that ____ has improved by ____% since deployment."
+                content: "We’re continuously monitoring performance in ____. Initial metrics show that ____ has improved by ____% since deployment."
             },
             {
                 id: 98,
-                response: "Looking ahead, the next priority is ____. We’ll be allocating more resources to ensure timely completion without compromising quality."
+                content: "Looking ahead, the next priority is ____. We’ll be allocating more resources to ensure timely completion without compromising quality."
             },
             {
                 id: 99,
-                response: "Stakeholder concerns about ____ have been noted. We’re addressing them by adjusting the approach in ____ to balance scope and deadlines."
+                content: "Stakeholder concerns about ____ have been noted. We’re addressing them by adjusting the approach in ____ to balance scope and deadlines."
             },
             {
                 id: 100,
-                response: "To summarize: completed ____, in progress ____, blocked ____. No major risks beyond ____, and we remain aligned with overall project goals."
+                content: "To summarize: completed ____, in progress ____, blocked ____. No major risks beyond ____, and we remain aligned with overall project goals."
             }
         ]
     },
@@ -630,83 +630,83 @@ const promptGroups = [
         prompts: [
             {
                 id: 101,
-                response: "We chose ____ over ____ because it provides better scalability and aligns with the long-term needs of the project."
+                content: "We chose ____ over ____ because it provides better scalability and aligns with the long-term needs of the project."
             },
             {
                 id: 102,
-                response: "The architecture for ____ has been designed to handle high concurrency. By using ____, we ensure performance and stability."
+                content: "The architecture for ____ has been designed to handle high concurrency. By using ____, we ensure performance and stability."
             },
             {
                 id: 103,
-                response: "While both options were considered, we prioritized ____ since it reduces complexity and offers faster time-to-market."
+                content: "While both options were considered, we prioritized ____ since it reduces complexity and offers faster time-to-market."
             },
             {
                 id: 104,
-                response: "Our decision to implement ____ was based on its proven reliability in similar projects and ease of integration with ____."
+                content: "Our decision to implement ____ was based on its proven reliability in similar projects and ease of integration with ____."
             },
             {
                 id: 105,
-                response: "We’ve introduced ____ as part of the design to improve maintainability. This way, future changes will be less disruptive."
+                content: "We’ve introduced ____ as part of the design to improve maintainability. This way, future changes will be less disruptive."
             },
             {
                 id: 106,
-                response: "The trade-off here is between performance and flexibility. By selecting ____, we gain scalability while still keeping the system modular."
+                content: "The trade-off here is between performance and flexibility. By selecting ____, we gain scalability while still keeping the system modular."
             },
             {
                 id: 107,
-                response: "To minimize risks, we opted for a gradual rollout of ____. This allows us to validate assumptions without impacting all users."
+                content: "To minimize risks, we opted for a gradual rollout of ____. This allows us to validate assumptions without impacting all users."
             },
             {
                 id: 108,
-                response: "The reason we avoided ____ is due to its long-term support concerns. Instead, ____ provides a stable path forward."
+                content: "The reason we avoided ____ is due to its long-term support concerns. Instead, ____ provides a stable path forward."
             },
             {
                 id: 109,
-                response: "We’ve aligned our design with industry best practices for ____. This ensures that the system remains future-proof and secure."
+                content: "We’ve aligned our design with industry best practices for ____. This ensures that the system remains future-proof and secure."
             },
             {
                 id: 110,
-                response: "To handle expected growth, the design incorporates ____. This ensures the system scales smoothly as usage increases."
+                content: "To handle expected growth, the design incorporates ____. This ensures the system scales smoothly as usage increases."
             },
             {
                 id: 111,
-                response: "We introduced caching for ____ since repeated lookups were slowing response times. This reduces latency significantly."
+                content: "We introduced caching for ____ since repeated lookups were slowing response times. This reduces latency significantly."
             },
             {
                 id: 112,
-                response: "In terms of security, we’ve implemented ____ to safeguard sensitive data. This balances compliance with usability."
+                content: "In terms of security, we’ve implemented ____ to safeguard sensitive data. This balances compliance with usability."
             },
             {
                 id: 113,
-                response: "We’ve chosen a microservices approach for ____ so teams can work independently and deployments remain flexible."
+                content: "We’ve chosen a microservices approach for ____ so teams can work independently and deployments remain flexible."
             },
             {
                 id: 114,
-                response: "While monolithic architecture could have simplified initial setup, we went with ____ to avoid future scaling challenges."
+                content: "While monolithic architecture could have simplified initial setup, we went with ____ to avoid future scaling challenges."
             },
             {
                 id: 115,
-                response: "The design ensures backward compatibility with ____. This reduces risk for users who haven’t migrated yet."
+                content: "The design ensures backward compatibility with ____. This reduces risk for users who haven’t migrated yet."
             },
             {
                 id: 116,
-                response: "We opted to build ____ in-house because customization is critical, whereas adopting ____ off-the-shelf would limit flexibility."
+                content: "We opted to build ____ in-house because customization is critical, whereas adopting ____ off-the-shelf would limit flexibility."
             },
             {
                 id: 117,
-                response: "The cost-benefit analysis showed that investing in ____ now will save significant rework and infrastructure costs later."
+                content: "The cost-benefit analysis showed that investing in ____ now will save significant rework and infrastructure costs later."
             },
             {
                 id: 118,
-                response: "We’ve structured the database schema for ____ with normalization in mind, but selectively denormalized to optimize query performance."
+                content: "We’ve structured the database schema for ____ with normalization in mind, but selectively denormalized to optimize query performance."
             },
             {
                 id: 119,
-                response: "Our logging and monitoring design around ____ ensures issues can be detected and resolved before they affect end users."
+                content: "Our logging and monitoring design around ____ ensures issues can be detected and resolved before they affect end users."
             },
             {
                 id: 120,
-                response: "We selected ____ as the standard across the project, ensuring consistency in code, maintainability, and developer onboarding."
+                content: "We selected ____ as the standard across the project, ensuring consistency in code, maintainability, and developer onboarding."
             }
         ]
     }
